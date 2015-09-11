@@ -1,4 +1,4 @@
-# Created by https://www.gitignore.io
+# Created by https://www.gitignore.io/api/cvs,emacs,ensime,jetbrains,kate,kdevelop4,linux,matlab,mercurial,notepadpp,osx,slickedit,sublimetext,svn,tags,textmate,vagrant,vim,windows,xcode
 
 ### CVS ###
 /CVS/*
@@ -50,7 +50,7 @@ tramp
 
 
 ### JetBrains ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
 *.iml
 
@@ -269,7 +269,15 @@ $RECYCLE.BIN/
 
 
 ### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
 build/
+DerivedData
+
+## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -279,8 +287,9 @@ build/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+
+## Other
 *.xccheckout
 *.moved-aside
-DerivedData
 *.xcuserstate
 
