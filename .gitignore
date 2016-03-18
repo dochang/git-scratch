@@ -3,7 +3,7 @@
 
 ### CVS ###
 /CVS/*
-*/CVS/*
+**/CVS/*
 .cvsignore
 */.cvsignore
 
@@ -48,6 +48,8 @@ flycheck_*.el
 # server auth directory
 /server/
 
+# projectiles files
+.projectile
 
 ### Ensime ###
 # Ensime specific
@@ -70,6 +72,7 @@ flycheck_*.el
 # Sensitive or high-churn files:
 .idea/dataSources.ids
 .idea/dataSources.xml
+.idea/dataSources.local.xml
 .idea/sqlDataSources.xml
 .idea/dynamic.xml
 .idea/uiDesigner.xml
@@ -262,6 +265,8 @@ Session.vim
 # temporary
 .netrwhist
 *~
+# auto-generated tag files
+tags
 
 
 ### Windows ###
