@@ -1,5 +1,53 @@
 
-# Created by https://www.gitignore.io/api/notepadpp,osx,ensime,jetbrains,jetbrains,patch,jetbrains,jetbrains,patch,kate,kdevelop4,linux,matlab,mercurial,cvs,emacs,slickedit,sublimetext,svn,tags,textmate,vagrant,vim,windows,xcode
+# Created by https://www.gitignore.io/api/matlab,notepadpp,ensime,jetbrains,kate,kdevelop4,linux,osx,mercurial,cvs,emacs,slickedit,sublimetext,svn,tags,textmate,vagrant,vim,windows,xcode
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
 
 ### Matlab ###
 ##---------------------------------------------------
@@ -21,11 +69,6 @@ slprj/
 
 # Session info
 octave-workspace
-
-
-### NotepadPP ###
-# Notepad++ backups #
-*.bak
 
 
 ### Ensime ###
@@ -88,109 +131,6 @@ fabric.properties
 # *.ipr
 
 
-### JetBrains ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
-# User-specific stuff:
-
-# Sensitive or high-churn files:
-
-# Gradle:
-
-# Mongo Explorer plugin:
-
-## File-based project format:
-
-## Plugin-specific files:
-
-# IntelliJ
-
-# mpeltonen/sbt-idea plugin
-
-# JIRA plugin
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-
-### JetBrains Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
-
-#!! ERROR: patch is undefined. Use list command to see defined gitignore types !!#
-
-### JetBrains ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
-# User-specific stuff:
-
-# Sensitive or high-churn files:
-
-# Gradle:
-
-# Mongo Explorer plugin:
-
-## File-based project format:
-
-## Plugin-specific files:
-
-# IntelliJ
-
-# mpeltonen/sbt-idea plugin
-
-# JIRA plugin
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-
-### JetBrains Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
-
-### JetBrains ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
-# User-specific stuff:
-
-# Sensitive or high-churn files:
-
-# Gradle:
-
-# Mongo Explorer plugin:
-
-## File-based project format:
-
-## Plugin-specific files:
-
-# IntelliJ
-
-# mpeltonen/sbt-idea plugin
-
-# JIRA plugin
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-
-### JetBrains Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
-
-#!! ERROR: patch is undefined. Use list command to see defined gitignore types !!#
-
 ### Kate ###
 # Swap Files #
 .*.kate-swp
@@ -203,7 +143,6 @@ fabric.properties
 
 
 ### Linux ###
-*~
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
@@ -259,51 +198,9 @@ Temporary Items
 */.cvsignore
 
 
-### Emacs ###
-# -*- mode: gitignore; -*-
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
-
-# Org-mode
-.org-id-locations
-*_archive
-
-# flymake-mode
-*_flymake.*
-
-# eshell files
-/eshell/history
-/eshell/lastdir
-
-# elpa packages
-/elpa/
-
-# reftex files
-*.rel
-
-# AUCTeX auto folder
-/auto/
-
-# cask packages
-.cask/
-dist/
-
-# Flycheck
-flycheck_*.el
-
-# server auth directory
-/server/
-
-# projectiles files
-.projectile
-
-# directory configuration
-.dir-locals.el
+### NotepadPP ###
+# Notepad++ backups #
+*.bak
 
 
 ### SlickEdit ###
